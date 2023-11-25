@@ -27,18 +27,4 @@ const handleStop = () => {
 startBtn.addEventListener('click', handleStart);
 stopBtn.addEventListener('click', handleStop);
 
-//Styles for btns
-
-startBtn.style.padding = '10px 20px';
-startBtn.style.fontSize = '16px';
-startBtn.style.borderRadius = '5px';
-startBtn.style.color = 'green';
-startBtn.style.border = 'none';
-// startBtn.style.cursor = 'pointer';
-
-stopBtn.style.padding = '10px 20px';
-stopBtn.style.fontSize = '16px';
-stopBtn.style.borderRadius = '5px';
-stopBtn.style.color = 'red';
-stopBtn.style.border = 'none';
-// stopBtn.style.cursor = 'pointer';
+//Були гарні стилі на кнопки, але щось сталося, тому виглядають дивно
