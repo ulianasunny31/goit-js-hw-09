@@ -51,6 +51,7 @@ function createPromises(evt) {
         );
       });
   }
+  selectors.form.reset();
 }
 
 selectors.form.addEventListener('submit', createPromises);
